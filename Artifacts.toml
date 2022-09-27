@@ -1,330 +1,396 @@
 [[CUTEst]]
 arch = "aarch64"
-git-tree-sha1 = "1930d66eccdab3e75c7456fc4a3647e5bd15d147"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "3ea16b8b7e56cc48f713fdd01c69e04b041f9d9136622cceb0c00acac6c633a2"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.aarch64-linux-gnu-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "aarch64"
-git-tree-sha1 = "3dc15f90f7e126fd3b37ccfd4b84c61b6c247c88"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "ab0c6ee54519b31c785d80f86c944f956162cc1ed501ffb04b8cdf84565ffce7"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.aarch64-linux-gnu-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "aarch64"
-git-tree-sha1 = "710d6e973d282684d7e9a49bed7418ca578342fb"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "2fbf7275a8e57a47f838d1d33600730bb07403416e65c1100391fae919174c04"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.aarch64-linux-gnu-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "aarch64"
-git-tree-sha1 = "9bf13fd66470ed15cd9b5b4839502c97e60815a5"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "7c067c6d66d3c0ca90f3d67205f82453628ed09fc19ef88c960dbf6ab0f28a0e"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.aarch64-linux-musl-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "aarch64"
-git-tree-sha1 = "77d035e056fa611eb98aeba35cf2f209890a3fff"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "62575eef0a442ddb999398e441095a045b3d886d4f8a30832305ae62b57bd435"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.aarch64-linux-musl-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "aarch64"
-git-tree-sha1 = "e2c698b957094948f3019cc259bbcbb47baf3700"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "77769eb1da0f8dc729f0ec609378c2f37befaebe5fba3e44d53ea8714cdf6e90"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.aarch64-linux-musl-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "8f689be71f9a98cc8ad24cc6876d66944426ed2f"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "825b4010503aad1d2a8e734b01d98ee2f51a2b2d7b1bb50cf213ba5e0821df19"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "7693495e01de3553e623d43e5f968029058cffe0"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "963828bfea6c46a995f79812238040896abe3f2e2b215af5a23b7d939c474d06"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "aac64b11fb16c6355c3f2775fab2b58f5fd1e5aa"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "a62822caa60ad1b6a248971a468f6c1d812e75e8753234831eb35fbd91a607d0"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "c169d03564cac63eb3e1f3b95095e51cfb51b0ca"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "0117008eedcf78fbcd1bf77f113596ff89b2cd238188ea4200c42aa4438410bd"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.armv7l-linux-musleabihf-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "8db74adf7a489f228ee9141f50047e82d4c64b98"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "096aaafd717173fc9b9420b4c4132e3fc596ee597f5d80ad9cf917f63dfd6425"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.armv7l-linux-musleabihf-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "90e52f3e8c5efcf05c9d1e32bdb42913153577ae"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "24eeee49862ebb8166de9fc3bb59854b8bd70f9986383128b71825b0de872cda"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.armv7l-linux-musleabihf-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "i686"
-git-tree-sha1 = "2c8945ff2c1214bfd15d808f71aa91130b8fc0c0"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "d81136e79b7f0b70c7d2a0f977872bdc396fe2e42b03915fbbcb23b7ba33c50e"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.i686-linux-gnu-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "i686"
-git-tree-sha1 = "a48188e2722bf173f4d717e5591bfabdf5011bbe"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "beae03b30ece2f70a4a204e7ce37f924206b14fdae26ec3c42c4aa968e0d6a37"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.i686-linux-gnu-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "i686"
-git-tree-sha1 = "42b43d9ecb174260377035fb88a56f5c2142b906"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "91ab9b67c1be2ac945fb08ffe826be0dc439edd2f7c12f952f0802fa036d3678"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.i686-linux-gnu-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "i686"
-git-tree-sha1 = "3d40b2d99c821922a9ed11623cb4737dc21b6d13"
-libc = "musl"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "684d6f3bcc905398ee14d78ebf71019ca5347e5209ffa768179fbbb4f57a068f"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.i686-linux-musl-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "i686"
-git-tree-sha1 = "533f7680a012e22607d48575be201787d4dbfe55"
-libc = "musl"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "83fe05dbff31d4d2cb40eaa01b548c90cc5dd4faf2be7f84bd2afa74e5040348"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.i686-linux-musl-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "i686"
-git-tree-sha1 = "d1c5b0fa51813bedcf0ca32f1fdafafc98e195fa"
-libc = "musl"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "c98946f151cebc7ee3f4a8c8e4833c916d2ca6ae276c266bf075971857e10dd6"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.i686-linux-musl-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "powerpc64le"
-git-tree-sha1 = "f7ba4158ebed73d9910f399cd4e468fd83bf09a5"
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "2c8219d59b950093b9d638a9cd7cd89da0189483845dfb820ba293ea6300cc10"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.powerpc64le-linux-gnu-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "powerpc64le"
-git-tree-sha1 = "0325c4d24de3fb3bd382160fe5941d8e3b839f4f"
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "7f8286531a8e212642a3788ab5de394f65aa0985a2ad636aa12520730ad51e47"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.powerpc64le-linux-gnu-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "powerpc64le"
-git-tree-sha1 = "af4de5f4c37abd4d8b28f39296fdd37cc12222bd"
-libc = "glibc"
-libgfortran_version = "5.0.0"
-os = "linux"
-
-    [[CUTEst.download]]
-    sha256 = "966e40be5870f26496540c3256ae0740c93ba6ac3c6e6ecd695136a3f050d085"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.powerpc64le-linux-gnu-libgfortran5.tar.gz"
-[[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "d5ef0aac2e0770efc99310f2ba3506ee5a202e8b"
-libgfortran_version = "3.0.0"
-os = "macos"
-
-    [[CUTEst.download]]
-    sha256 = "71e24fe51dc3f75c8d060b7865ba9db5f972cf98f481a27d5b105af62dd8a59f"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-apple-darwin-libgfortran3.tar.gz"
-[[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "eb76df4f0053092abc4b5cce2b4cccd4fdeb3d2f"
-libgfortran_version = "4.0.0"
-os = "macos"
-
-    [[CUTEst.download]]
-    sha256 = "c143a68b57cf6d506971b0b447ff35bb785791dede62c944680588e29b37283c"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-apple-darwin-libgfortran4.tar.gz"
-[[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "a5c5506e4bfa601362b9aeb09bb775994e3e65c4"
+git-tree-sha1 = "f13393dcda394be3b8515265920f3f45adbcc45e"
 libgfortran_version = "5.0.0"
 os = "macos"
 
     [[CUTEst.download]]
-    sha256 = "86e40907695497c611a952e7bb718de27445a6bafa1450f0f711b29d842003dd"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-apple-darwin-libgfortran5.tar.gz"
+    sha256 = "4952110dbda0c1bb95a6311181550f08a4d58261d1b6440308d7e7eb002911a7"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-apple-darwin-libgfortran5.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "32339413f8a2617b2fb94b05032eb72fb4156dfe"
+arch = "aarch64"
+git-tree-sha1 = "2313ca57bc2ca50376f7f7cc49b08b3afed5a8bb"
 libc = "glibc"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "ec34fd7668092aabbc51838683ba7037ac8ff76fc3cee3d1809b352a3ef1423b"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-linux-gnu-libgfortran3.tar.gz"
+    sha256 = "24a10a8fc7f9ecdc90b60e185d489a3143ecc1854c910a33fcc4802e9c42397c"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-linux-gnu-libgfortran3.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "78e91422fe2a688f52c398cbc5108276525b8555"
+arch = "aarch64"
+git-tree-sha1 = "a8f4b51dbdef827da47b5e4f270c29c65b015701"
 libc = "glibc"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "0aa15797379283add5760346ef37117c99d7f0c662ce0150a5d6e661c50971bb"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-linux-gnu-libgfortran4.tar.gz"
+    sha256 = "022b5b4c6002e2c5e287572ea3d5ca904f3563106281bd817c1f84acaad1c340"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-linux-gnu-libgfortran4.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "23c4398cf878b244b6561e9c23219d675a184508"
+arch = "aarch64"
+git-tree-sha1 = "22d9c58976c1e9641d7f0b9d9b306490b9a59085"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "4178139033343264b925672bf4bf8883cef2c140f28056c12f41452f4b504a32"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-linux-gnu-libgfortran5.tar.gz"
+    sha256 = "d1f27459c069bbc39a185060b20b2f7eb5f36c0069071932ef8bb8fe63a13098"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-linux-gnu-libgfortran5.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "ef5b086fdd18a237b9a481e94fa99c0f02461cef"
+arch = "aarch64"
+git-tree-sha1 = "7846ff24b138e177322614fea07e0519638382f0"
 libc = "musl"
 libgfortran_version = "3.0.0"
 os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "58ca3be310e65715c6459562cea62c9c5e280fff8273d37f7d65320ea437c61e"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-linux-musl-libgfortran3.tar.gz"
+    sha256 = "9421ba10f300ae68cbea9fec906ca1cf175df3af6522da0e6edca0fe1c3d29c1"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-linux-musl-libgfortran3.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "bfb50c54297cc6cbcdf581dbf626d91c70386b2a"
+arch = "aarch64"
+git-tree-sha1 = "d94e4c7b417f3d71f5ff269fce7b9a4467a73249"
 libc = "musl"
 libgfortran_version = "4.0.0"
 os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "5b6125bf728eb587de2600f5c72f1d204ff6c668b92af7c33b49ca6884f05bfc"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-linux-musl-libgfortran4.tar.gz"
+    sha256 = "2bde6ffaaee0ca1699105117d041af8d50a4a8e5c37863dc7f083b20e5f73a3d"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-linux-musl-libgfortran4.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "0a056e5e236fdec21afbec9892888e2bccfcd38d"
+arch = "aarch64"
+git-tree-sha1 = "455770a9e48f7535232c7727541ed1ad7eb8fa04"
 libc = "musl"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "1393d717f53617bc669ca1024cbe9c3edf20a02a0e0e911f61edbe7f26dc372a"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-linux-musl-libgfortran5.tar.gz"
+    sha256 = "1c00fa111bb430f31e36d1b7dba2ab3f9ce33bcda92dafcfce5e66e97c209b75"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.aarch64-linux-musl-libgfortran5.tar.gz"
 [[CUTEst]]
-arch = "x86_64"
-git-tree-sha1 = "127a99854a9e123b9a8100507bf5aa70c6be6ab8"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "959ec059b1149a018558ca9020220c40afcbd50b"
+libc = "glibc"
 libgfortran_version = "3.0.0"
-os = "freebsd"
+os = "linux"
 
     [[CUTEst.download]]
-    sha256 = "700669e4a6758886082aa12e645fb8cb306941c4e2de899df748ab2814d2001a"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-unknown-freebsd-libgfortran3.tar.gz"
+    sha256 = "a7f0453ecea45a3ccfa0eb16cbef8d77baa5e3831bb5a8d8538af5bed3af62a5"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv6l-linux-gnueabihf-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4d4dadd44712f02718c00d9bffe4e2c794c3f88e"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "f0f1fbf800f6872617787675308d01e4087e990cb68f691e21c00e31c2234f2e"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv6l-linux-gnueabihf-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "7ccced13a1501f2f1371af7f46e150b77bb2e3d9"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "18b470cb9f9a0ffaee78f4847d6112173a1982e8e34998dc3f433e8a397409c2"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv6l-linux-gnueabihf-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "5d1e9e6e6bd62316dc626e3d3d047a959ee88573"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "97bb5e3345469e0898437c406a31ba391845fbdeca10fc0d3cdb85e1c276b72f"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv6l-linux-musleabihf-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "2d82ea52fcbf86bcd4c38034418aa762eac579d3"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "a5744077fb69bbbb79dee600cd6083345eadd0b28ebd5c73cb90d48c484066b3"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv6l-linux-musleabihf-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8aec6d5f02b334b58450b2b00633754f4fa1a7ff"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "1b66e09ce21a2316fd8a5039a4d97c0d79fde0ceb4ade1c27d139e48f7d741e9"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv6l-linux-musleabihf-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "dad2fb38d0fefb8f7e742c9f9043f3e9cb727eb0"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "955cbf0350a2f2922bd425af64d7a120c7979aa7801a0cc87b2db68c2aae2512"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv7l-linux-gnueabihf-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e36de061e6a0f742b3a22ad3e5e08d6f13259ac8"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "e85ef073b99983257ef2e7cbcdb1c6795d9724b817b96f5048115d0ac01f1064"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv7l-linux-gnueabihf-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c2c601761a132330aa476f41b94e4cac60260356"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "a67e7d1f4b3eddacb12d6e7b37319295202838b811ebe00f8d79d7c3e579155f"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv7l-linux-gnueabihf-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e2d926ecbd5b686bab90a9b282e14e36f717c024"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "75780779bb2169cf548837039b55375162deddcf89c1fe6b81da069f5a640ae0"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv7l-linux-musleabihf-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "e1cfe5374d79024cc22fbf0026b95e7bf2a01e1c"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "ebac726bf1a6703bd25941b1a29d737cddb1a35518b7f3895ab2260ae6434887"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv7l-linux-musleabihf-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b66f19dc57e8df53f5830a9c71b6a423b2c45a31"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "e91e38fe6e7f7e555ebb7b0d704d2c1f4494578fef7918fc5a49309197d7e5c7"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.armv7l-linux-musleabihf-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "i686"
+git-tree-sha1 = "6cfaec85add05d6fa6781904b9b0aeeefac4606d"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "c2e22075c56cecd3eb16f350db0d0f5fa57c8fdf8e93e6a6ef7bf8254b81cc4a"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.i686-linux-gnu-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "i686"
+git-tree-sha1 = "daeff80251a4d03600f6b51a5a00eb4a681554b5"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "6213a1d315c8c5657849bbdb5fcb1a933698d84e61ee4929e403016171ab509e"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.i686-linux-gnu-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "i686"
+git-tree-sha1 = "7f6ab881df892db854e69b4f030ac1facfad636b"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "c8ed56ddb5be654ff664364c6095966abf40b8b054f1f9eacd738585d8aad4f6"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.i686-linux-gnu-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "i686"
+git-tree-sha1 = "c01034d1f688ac0d213d7382ca187c0753fd18d5"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "df531e85e1db29c315b19b09270f737601565658c2efa240ebfc6d50f55f279f"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.i686-linux-musl-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "i686"
+git-tree-sha1 = "2a146c51f4444b236d69613fb14576f49b1f762d"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "b9a680533adfb1516a56affd68ca7f2936f732ced021d5311765e4379e02312d"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.i686-linux-musl-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "i686"
+git-tree-sha1 = "899a12f5cb52b6ec7f225209d118ad182ce3c98f"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "6735adfa1726d055de51e3837e6830b56ecbda626e1feac17565b231ba746e50"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.i686-linux-musl-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "powerpc64le"
+git-tree-sha1 = "f219e24d635340f16e9ecec44b85515941d15f64"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "ff5a2cffe228f80a83b9aa1ff8147d644f033e967bf6e27521a70996b21186aa"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.powerpc64le-linux-gnu-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "powerpc64le"
+git-tree-sha1 = "74c4d924b67020ac1c416e995f4f2e39fa3e765e"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "1dd60007861cc50766c4f6814968279f6f176a9f5689f06850f33c2d44820a8d"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.powerpc64le-linux-gnu-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "powerpc64le"
+git-tree-sha1 = "ca3d2b20aac5731564e48f3f601006fdc121a5e4"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "adeec9e960aacaccd5b525044d50c89565bc4f39e1eb988ef6f2c764c71a284b"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.powerpc64le-linux-gnu-libgfortran5.tar.gz"
 [[CUTEst]]
 arch = "x86_64"
-git-tree-sha1 = "93df02378d90ce4d3cc9f7ec008c18e31c793571"
+git-tree-sha1 = "508670d162c3368fae30d1242d359153026edad0"
+libgfortran_version = "3.0.0"
+os = "macos"
+
+    [[CUTEst.download]]
+    sha256 = "48708c8c07408598ebd30e4b916f9507904f2de7cc9a36fcf5b087c66086da15"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-apple-darwin-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "ef58e67f3f75af19b9d776c280c1a335e3841225"
+libgfortran_version = "4.0.0"
+os = "macos"
+
+    [[CUTEst.download]]
+    sha256 = "73d6bd7cb10c315a27ca6cd75f030bacfc805f06b31b9211d5282a0eed2c4d26"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-apple-darwin-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "0dfebaef7e0d1ed94c05f22115ec54c514ecd867"
+libgfortran_version = "5.0.0"
+os = "macos"
+
+    [[CUTEst.download]]
+    sha256 = "ee9f4b8d64f47fcd562d9e5345472bd33edfc103cda8ecce6e5af6699c94fba0"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-apple-darwin-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "a6e3cc730fc98d4c64835fb2711c804c72eb1d10"
+libc = "glibc"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "bb4b1afcc8d69b1b265865a50a8404c8558bfce81da183a51abd03b93263c0df"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-linux-gnu-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "ac60df455e727da89ddc34397b95f5779da0cede"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "58cbc0a21b03e231f98087c7474aeb790a332663b809a6ea07b75a8b63ec3fc3"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-linux-gnu-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "3d8865dcfecefd8e183b5eca8fcb0daed4ad3091"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "898120af905e22efcd9becd4f575c735a1887136ab6cac751835250884f54559"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-linux-gnu-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "c85f048e0c4126b7021de77d67eb7cf0fa6407a6"
+libc = "musl"
+libgfortran_version = "3.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "39f02347e9f8759cffe149cf267efcc4b4158ddd5fdda25db2e453a2c41fd93a"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-linux-musl-libgfortran3.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "89ec2938027f9b9cf1f290888fcf1caea27589dd"
+libc = "musl"
+libgfortran_version = "4.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "9769ac77c20fb97c4cebced1099ddb4e99537008bc84d93aabfec2f73aa66a2c"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-linux-musl-libgfortran4.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "ceda9ad0683886d42d12a143810a1c28e8b7f116"
+libc = "musl"
+libgfortran_version = "5.0.0"
+os = "linux"
+
+    [[CUTEst.download]]
+    sha256 = "d1d6a32d078d2c14627fd2acddd0c09e48fdc4e29a358a69c8b98fcf18c4f0eb"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-linux-musl-libgfortran5.tar.gz"
+[[CUTEst]]
+arch = "x86_64"
+git-tree-sha1 = "ca1615a7d5960572c86a0d8580930ee9162d16a7"
 libgfortran_version = "4.0.0"
 os = "freebsd"
 
     [[CUTEst.download]]
-    sha256 = "867a15ada0ea96bd9d71b0b6aa25703215055e6ef4cc19844567f0fa05434816"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-unknown-freebsd-libgfortran4.tar.gz"
+    sha256 = "ec8c5b99e1d5e20dfaed5062009c6372bf06f900d8508c24baf10d06eddc9dbe"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-unknown-freebsd-libgfortran4.tar.gz"
 [[CUTEst]]
 arch = "x86_64"
-git-tree-sha1 = "baacdf536a9c7bd92af8305c75866b8389ccc364"
+git-tree-sha1 = "f6f70dfcaa99bcc84df5727228301f3623a27799"
 libgfortran_version = "5.0.0"
 os = "freebsd"
 
     [[CUTEst.download]]
-    sha256 = "4ca501c01cb01759e1a42160ad7688708bee383ca45c51e8f5288161f4725e31"
-    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.4+1/CUTEst.v2.0.4.x86_64-unknown-freebsd-libgfortran5.tar.gz"
+    sha256 = "3e07a2bf4916d3600f4806ba213887a66e93d77b93f586408739f4f8fd1c7d70"
+    url = "https://github.com/JuliaBinaryWrappers/CUTEst_jll.jl/releases/download/CUTEst-v2.0.5+0/CUTEst.v2.0.5.x86_64-unknown-freebsd-libgfortran5.tar.gz"
