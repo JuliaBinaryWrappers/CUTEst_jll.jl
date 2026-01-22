@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("CUTEst")
-JLLWrappers.@generate_main_file("CUTEst", UUID("bb5f6f25-f23d-57fd-8f90-3ef7bad1d825"))
+JLLWrappers.@generate_main_file("CUTEst", Base.UUID("bb5f6f25-f23d-57fd-8f90-3ef7bad1d825"))
 end  # module CUTEst_jll
